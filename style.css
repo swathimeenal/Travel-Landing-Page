@@ -1,0 +1,30 @@
+:root{
+    --blueviolet:#4B40C5;
+    --orange:#EC682C;
+    --white: #FFFFFF;
+     --black:#212832
+}
+*,
+*::after
+*::before
+{
+ box-sizing: border-box;   
+}
+body{
+    margin: 0;
+    font-family: "Peralta","Poppins","Montserrat";
+}
+.travel{
+    max-width: 1134px;
+    margin: 0 auto;
+}
+/* Buttons */
+.btnOrange
+{
+
+}
+.btnOrange1
+{
+
+}
+/* Header */

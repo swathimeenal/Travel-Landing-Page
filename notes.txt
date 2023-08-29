@@ -1,0 +1,2 @@
+Font Used:Peralta,poppins,Mont Serrat
+COLORS USED: blueviolet: #4B40C5, orange: #EC682C, white: #FFFFFF, black; #212832
