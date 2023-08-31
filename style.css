@@ -19,7 +19,7 @@ body{
     font-family: "Poppins",sans-serif;
 }
 .header{
-    background: url(./Images/Beach.png);
+    background: url(./Images/Beach.png) no-repeat 50% center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,6 +28,7 @@ body{
     position:relative;
     opacity:0.9;
     overflow: hidden;
+    
 }
 nav{
     display: flex;
