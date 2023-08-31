@@ -1,16 +1,110 @@
+
 :root{
     --blueviolet:#4B40C5;
     --orange:#EC682C;
     --white: #FFFFFF;
-    --black: #212832;
+    --grey: #212832;
+    --black: #000;
 }
-*,
-*::after
-*::before
+*
 {
+    margin: 0;
+    padding: 0;
  box-sizing: border-box;   
 }
 body{
-    margin: 0;
-    font-family: "Peralta","Poppins","Montserrat";
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins",sans-serif;
+}
+.header{
+    background: url(./Images/Beach.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    opacity:0.9;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-top:  48px;
+    margin-left: 55px;
+}
+.logo a{
+    color: var(--black);
+    font-family: Peralta;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+.list{
+    flex: 1;
+    text-align: right;
+}
+.list>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 50px 54px 0px 13px;
+}
+ul>li>a{
+   color: var(--grey);
+   text-align: center;
+   font-family: Poppins;
+   font-size: 22.612px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-decoration: none;
+}
+.btnOrange{
+color:var(--white);
+padding: 8px 20px;
+gap: 8px;
+font-weight: 400;
+font-size: 22.612px;
+border-radius: 8px;
+border: 1px solid var(--orange);
+background: var(--orange);
+}
+.btnBlueviolet{
+    color: #FFF1DA;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 23.942px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+width: 228.01px;
+height: 75.882px;
+border-radius: 13.301px;
+background:var(--blueviolet);
+box-shadow: 0px 26.60243px 46.55425px 0px rgba(241, 165, 1, 0.15);
+}
+.textarea{
+    text-align: start;
+    margin: 180px 0px 451px 41px;
+    position:relative;
+    top: 125px;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4rem auto;
+    z-index: 500;
 }
