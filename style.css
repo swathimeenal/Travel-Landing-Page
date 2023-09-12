@@ -34,11 +34,7 @@ header{
     overflow: hidden;
     
 }
-ul{
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -142,26 +138,15 @@ text-transform: uppercase;
     margin: 4rem auto;
     z-index: 500;
 }
-.category p {
+.category > p {
     color: var(--blueviolet);
-text-align: center;
-font-family: Poppins;
 font-size: 32px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
-width: 270px;
-height: 34px;
-flex-shrink: 0;
 }
-.category h1{
-    color: var(--3rd, #14183E);
-text-align: center;
-font-family: Poppins;
+.category > h1{
+    color: var(--3rd, #14183e);
 font-size: 64px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 text-transform: capitalize;
 }
 .category-row-icons{
@@ -224,7 +209,7 @@ text-transform: capitalize;
     border-radius: 0px 39.904px 0px 13.301px;
     background: var(--blueviolet);
   }
-  .border > .back-image {
+  .radious-card> .back-image {
     position: relative;
     top: -15px;
     left: 20px;
@@ -232,23 +217,23 @@ text-transform: capitalize;
     height: 60px;
     background:var(--sandal);
   }
-  .border > .left > img {
+  .radious-card > .left > img {
     position: absolute;
     top: -186px;
     left: -34px;
   }
-  .border > .right> img {
+  .radious-card > .right> img {
     position: absolute;
     top: 16px;
     left: -12px;
   }
-  .border > .left {
+  .radious-card > .left {
     border-radius: 6.651px 13.301px 6.651px 23.942px;
   }
-  .border > .right{
+  .radious-card > .right{
     border-radius: 6.651px 23.942px 6.651px 13.301px;
   }
-  .border {
+  .radious-card{
     border-radius: 47.884px;
     background: var(--white, --white);
     box-shadow: var(--radious-shadow);
@@ -262,16 +247,16 @@ text-transform: capitalize;
     z-index: 1000;
   }
   /*---topSelling----*/
-  .topSelling-container {
+  .TopSelling {
     text-align: center;
   }
-  .topSelling> p {
+  .TopSelling > p {
     color: var(--blueviolet);
     text-align: center;
     font-size: 32px;
     font-weight: 700;
   }
-  .topSelling> h1 {
+  .TopSelling > h1 {
     color: var(--3rd, #14183e);
     text-align: center;
     font-size: 62px;
