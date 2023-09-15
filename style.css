@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
  box-sizing: border-box; 
- @media only screen and (orientation: landscape) 
+ @media only screen and (orientation: landscape) ;
 }
 body{
     width: 100%;
@@ -263,31 +263,44 @@ text-transform: capitalize;
     font-weight: 700;
     margin: 40px auto;
   }
-  .row-icons {
+  .row-cards {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
   }
-  .card-img {
+  .card-colom {
     position: relative;
     width: 417.658px;
     height: 607.866px;
   }
-  .card-colom > .image > img {
+  .card-colom> .image > img {
     position: absolute;
   }
-  .card-colom > .image > .italy {
-    top: -3px;
-    left: -21px;
+  .card-colom> .image > .italy {
+    width: 417.6582336425781px;
+height: 607.8655395507812px;
+top: -3px;
+left: 21.3302001953125px;
+border-radius: 31.922914505004883px;
+
   }
-  .card-colom > .image> .london {
+  .card-colom> .image> .london
+   {
+    width: 417.6582336425781px;
+    height: 607.8655395507812px;
     top: -3px;
-    left: -106.5px;
+    left: 486.8731689453125px;
+    border-radius: 31.922914505004883px;
+
   }
-  .card-colom > .image > .europe {
-    top: -3px;
-    left: -106px;
+  .card-colom> .image > .europe {
+    width: 417.6582336425781px;
+height: 607.8655395507812px;
+top: -3px;
+left: 985.66796875px;
+border-radius: 31.922914505004883px;
+
   }
   .place-contents {
     border-radius: 0px 0px 31.923px 31.923px;
